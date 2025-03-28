@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Time Fav's</title>
+    <link rel="stylesheet" href="styles.css">
+<header class="header">All Time Favorite's List</header>
+<body>
+</head>
+    <h1 class="favorite-intro">Simple form for favorite items</h1>
+    <p class="p-intro"> Random questions about favorite color to favorite sport</p>
+    <p class="p-intro"> Your particaption is greatly appreciated!</p>
+    <div class="form-box">
+    <form class="participant-form">
+        <!--Participant's Name-->
+        <label for="Name">Full Name:</label>
+        <input type="text" id="Name" name="Name" placeholder="John Doe"><br><br>
+        <!--Participant's Age-->        
+        <label for="Age">Age:</label>
+        <input type="number" id="Age" name="Age" min="0" max="100" placeholder="21"><br><br>
+        <!--Participant's Location-->
+        <label for="Location">State:</label>
+        <select name="Location" id="Location"><br>
+                <option value="Indiana">Indiana</option>
+                <option value="Illinois">Illinois</option>
+                <option value="Kentucky">Kentucky</option>
+                <option value="Missouri">Missouri</option>
+                <option value="Ohio">Ohio</option>
+                <option value="Tennessee">Tennessee</option>
+                <option value="West Virgina">West Virgina</option>
+                <option value="Other">All Other States</option>
+            </select><br><br>
+        <label for="Color">Color:</label>
+        <input type="text" id="Color" name="Color" placeholder="Money Green" required><br><br>
+        <label for="Food">Food:</label>
+        <input type="text" id="Food" name="Food" placeholder="Pizza" required><br><br>
+        <label for="LuckyNumber">Lucky Number:</label>
+        <input type="number" id="LuckyNumber" name="LuckyNumber" placeholder="100" required><br><br>
+        <label for="FavMovie">Favorite Movie:</label>
+        <input type="text" id="FavMovie" name="FavMovie" placeholder="Forrest Gump" required><br><br>
+        <label for="Sport">Favorite Sport:</label>
+        <input type="text" id="Sport" name="Sport" placeholder="Basketball" required><br><br>
+    </form><br><br>
+</div>
+    <div class="consent">
+        <form action="/action_page.php">
+            <!--Participant's Consent-->  
+            <label for="Checkbox"><strong>Legal Consent<sup>1</sup></strong></label>
+            <input type="checkbox" id="Consent" name="Consent" value="Consent" required>
+            <!--Submit button-->
+            <input type="submit">
+        </form>
+    </div>
+</body>
+<footer>
+    <strong><sup>1</sup></strong> By submitting this form, you consent to the use of your data for research purposes.
+</footer>
+</html>

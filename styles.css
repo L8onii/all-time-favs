@@ -1,0 +1,60 @@
+body {
+    background-color: royalblue;
+    color: white;
+}
+
+.header {
+    text-align: center;
+    font-size: 100px;
+    color: gold;
+}
+
+.form-box {
+    padding: 15px 20px;
+    text-align: center;
+    margin: 10px 10px;
+    ;
+}
+
+input {
+    width: 100%;
+}
+
+.p-intro {
+    text-align: center;
+}
+
+.favorite-intro {
+    color:forestgreen;
+    text-align: center;
+}  
+
+.participant-form {
+    display: inline-block;
+    align-items: left;
+    justify-content: space-between;
+    gap: 5px;
+}
+
+.button {
+    background-color: green;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 8px;
+}
+
+.container {
+    display: flex;
+    width: 25%;
+    justify-content: center;
+    text-align: center;
+}
+
+.consent {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
